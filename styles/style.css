@@ -120,7 +120,7 @@ main {
 }
 
 .why-web-dev {
-    background-color: rgba(13, 19, 33, 0.02);
+    background-color: rgba(33, 22, 13, 0.02);
     padding: 70px 70px;
     border-radius: 10px;
     display: flex;
@@ -617,11 +617,18 @@ main {
         padding: 0;
     }
     .why-web-dev{
-        padding: 25px;
+        padding: 15px;
         margin: 30px 20px;
+        border: 1px solid;
+        background-color: aqua;
     }
-    .why-web-dev-row1,  .why-web-dev-row2,  .why-web-dev-row3{
+    .why-web-dev-row1,  
+    .why-web-dev-row2,  
+    .why-web-dev-row3{
         flex-direction: column;
+        border: 1px solid;
+        margin: 20px 0px;
+        padding: 20px;
     }
     .why-web-dev-row1-content{
         margin-right: 0;
