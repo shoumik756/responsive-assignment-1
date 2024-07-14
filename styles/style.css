@@ -656,4 +656,20 @@ main {
     .html-card, .css-card, .js-card{
         width: 100%;
     }
+    .support-main{
+        margin: 30px 20px;
+    }
+    .support{
+        padding: 0px 15px;
+    }
+    .support-field{
+        margin: 0 100px;
+    }
+    .support-field input {
+        width: auto;
+        height: auto;
+        margin: 0px 10px;
+        border-radius: 8px;
+        border: none;
+    }
 }
