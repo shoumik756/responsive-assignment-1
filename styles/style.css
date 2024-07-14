@@ -627,21 +627,13 @@ main {
     .why-web-dev-row3{
         flex-direction: column;
         border: 1px solid;
-        margin: 20px 0px;
-        padding: 20px;
+        margin: 20px 10px;
+        /* padding: 20px; */
     }
     .why-web-dev-row1-content{
         margin-right: 0;
     }
-    .why-web-dev-row2 .why-web-dev-row1-content{
-        margin-left: 0;
-    }
-    .why-web-dev-row1-image img{
-        width: auto;
-        height: auto;
-    }
-    .why-web-dev-row2 .why-web-dev-row1-image img{
-        width: auto;
-        height: auto;
+    .why-web-dev-row2{
+        flex-direction: column-reverse;
     }
 }
