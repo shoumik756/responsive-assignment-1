@@ -643,5 +643,17 @@ main {
     }
     iframe{
         width: auto;
+        height: auto;
+    }
+    .my-current-target{
+        margin: 30px 20px;
+        padding: 20px;
+    }
+    .card{
+        flex-direction: column;
+        margin: 30px 20px;
+    }
+    .html-card, .css-card, .js-card{
+        width: 100%;
     }
 }
