@@ -616,7 +616,7 @@ main {
         /* background-color: aquamarine; */
         padding: 0;
     }
-    .why-web-dev{
+    .why-web-dev {
         padding: 15px;
         margin: 30px 20px;
         
@@ -634,5 +634,14 @@ main {
     }
     .why-web-dev-row2{
         flex-direction: column-reverse;
+    }
+    .my-inspiration{
+        margin: 30px 20px;
+    }
+    .my-ins{
+        padding: 20px;
+    }
+    iframe{
+        width: auto;
     }
 }
